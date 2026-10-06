@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CAMBIAR: reemplaza TU_USUARIO por tu usuario real de GitHub -->
+  <link rel="canonical" href="https://TU_USUARIO.github.io/">
+
+  <title>Francisco Donoso López | Customer Experience, Medallia & CX Technology | Chile</title>
+
+  <meta name="description" content="Francisco Donoso López es especialista en Customer Experience (CX), CX Technology, Voice of Customer y Experience Management en Santiago de Chile, con experiencia avanzada y certificación en Medallia, Medallia Experience Cloud, Medallia Digital y Qualtrics.">
+  <meta name="author" content="Francisco Donoso López">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Francisco Donoso López | Customer Experience, Medallia & CX Technology">
+  <meta property="og:description" content="Especialista en Customer Experience, CX Technology, Voice of Customer y Experience Management. Experiencia avanzada y certificación en Medallia, además de Qualtrics, Customer Journey, VoC, analítica e IA generativa aplicada a desarrollos tecnológicos.">
+  <!-- CAMBIAR -->
+  <meta property="og:url" content="https://TU_USUARIO.github.io/">
+  <meta property="og:locale" content="es_CL">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Francisco Donoso López | Customer Experience, Medallia & CX Technology">
+  <meta name="twitter:description" content="Especialista en CX, Medallia, Voice of Customer, CX Technology, Customer Journey y Experience Management en Chile.">
+
+  <!-- Datos estructurados para buscadores -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Francisco Donoso López",
+    "url": "https://TU_USUARIO.github.io/",
+    "jobTitle": "Especialista en Customer Experience, CX Technology y Experience Management",
+    "description": "Profesional especializado en Customer Experience (CX), CX Technology, Voice of Customer (VoC) y Experience Management, con experiencia avanzada y certificación en Medallia. Lidera proyectos de experiencia, tecnología y medición para organizaciones de banca, servicios financieros y retail en Chile y otros países.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santiago",
+      "addressCountry": "CL"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Ipsos Chile"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidad San Sebastián"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "Duoc UC"
+      }
+    ],
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "certification",
+      "name": "Medallia Product Certification"
+    },
+    "knowsAbout": [
+      "Customer Experience",
+      "CX Technology",
+      "Medallia",
+      "Medallia Experience Cloud",
+      "Medallia Digital",
+      "Voice of Customer",
+      "Experience Management",
+      "Qualtrics",
+      "Customer Journey",
+      "Customer Journey Mapping",
+      "Journey Analytics",
+      "NPS",
+      "CSAT",
+      "CES",
+      "Close the Loop",
+      "Customer Insights",
+      "Consumer Insights",
+      "Survey Design",
+      "Dashboards",
+      "Data Analytics",
+      "Market Research",
+      "Generative AI",
+      "Project Management",
+      "Technical Consulting"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/francisco-donoso-l%C3%B3pez-reseach-inteligencia-de-negocios-marketing-analista/"
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#f5f7fa;
+      --surface:#ffffff;
+      --surface-soft:#f8fafc;
+      --text:#172033;
+      --muted:#5e6b7a;
+      --line:#dfe5ec;
+      --accent:#2459a8;
+      --accent-soft:#eaf1fb;
+      --max:1080px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height:1.65;
+    }
+
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    .wrap{width:min(calc(100% - 36px), var(--max)); margin:0 auto}
+
+    header{
+      background:linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      border-bottom:1px solid var(--line);
+    }
+
+    .hero{padding:72px 0 56px}
+    .eyebrow{
+      font-size:.86rem;
+      font-weight:700;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:var(--accent);
+      margin-bottom:14px;
+    }
+
+    h1{
+      font-size:clamp(2.2rem, 5vw, 4.3rem);
+      line-height:1.05;
+      letter-spacing:-.045em;
+      margin:0;
+      max-width:900px;
+    }
+
+    .hero h2{
+      margin:18px 0 0;
+      font-size:clamp(1.05rem, 2vw, 1.35rem);
+      font-weight:600;
+      color:var(--muted);
+      max-width:850px;
+    }
+
+    .hero p{
+      margin:24px 0 0;
+      max-width:850px;
+      font-size:1.07rem;
+      color:var(--muted);
+    }
+
+    .cta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:28px;
+    }
+
+    .button{
+      display:inline-block;
+      padding:11px 16px;
+      border-radius:10px;
+      font-weight:700;
+      border:1px solid var(--line);
+      background:var(--surface);
+    }
+
+    .button.primary{
+      background:var(--accent);
+      border-color:var(--accent);
+      color:#fff;
+    }
+
+    main{padding:34px 0 70px}
+
+    section{
+      background:var(--surface);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:32px;
+      margin:22px 0;
+      box-shadow:0 8px 30px rgba(23,32,51,.035);
+    }
+
+    h2.section-title{
+      margin:0 0 18px;
+      font-size:1.55rem;
+      letter-spacing:-.02em;
+    }
+
+    h3{
+      margin:0;
+      font-size:1.14rem;
+    }
+
+    .sub{
+      color:var(--muted);
+      font-size:.96rem;
+      margin-top:3px;
+    }
+
+    .chips{
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px;
+    }
+
+    .chip{
+      background:var(--accent-soft);
+      border:1px solid #d4e1f4;
+      color:#234b83;
+      padding:7px 10px;
+      border-radius:999px;
+      font-size:.9rem;
+      font-weight:650;
+    }
+
+    .experience{
+      padding:22px 0;
+      border-top:1px solid var(--line);
+    }
+
+    .experience:first-of-type{
+      border-top:0;
+      padding-top:0;
+    }
+
+    .experience:last-child{
+      padding-bottom:0;
+    }
+
+    ul{
+      padding-left:20px;
+      margin:14px 0 0;
+    }
+
+    li{margin:8px 0}
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0,1fr));
+      gap:16px;
+    }
+
+    .card{
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:20px;
+      background:var(--surface-soft);
+    }
+
+    .card strong{
+      display:block;
+      margin-bottom:5px;
+    }
+
+    footer{
+      border-top:1px solid var(--line);
+      padding:28px 0 42px;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+
+    @media (max-width:760px){
+      .hero{padding:52px 0 42px}
+      section{padding:24px 20px}
+      .grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap hero">
+      <div class="eyebrow">Customer Experience · CX Technology · Medallia</div>
+
+      <h1>Francisco Donoso López</h1>
+
+      <h2>
+        Especialista en Customer Experience (CX), CX Technology, Voice of Customer y Experience Management
+        con experiencia avanzada y certificación en Medallia.
+      </h2>
+
+      <p>
+        Profesional radicado en Santiago de Chile con experiencia liderando proyectos de experiencia de clientes,
+        tecnología CX, investigación y analítica para organizaciones de banca, servicios financieros y retail,
+        tanto en Chile como en iniciativas de alcance regional.
+      </p>
+
+      <div class="cta">
+        <!-- CAMBIAR: reemplaza por tu nueva URL pública de LinkedIn -->
+        <a class="button primary" href="https://www.linkedin.com/in/francisco-donoso-l%C3%B3pez-reseach-inteligencia-de-negocios-marketing-analista/" rel="me noopener" target="_blank">LinkedIn</a>
+        <a class="button" href="#experiencia">Experiencia</a>
+        <a class="button" href="#especialidades">Especialidades</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="perfil">
+      <h2 class="section-title">Perfil profesional</h2>
+      <p>
+        Mi experiencia combina <strong>Customer Experience, CX Technology, investigación, analítica y consultoría</strong>.
+        Me especializo en el diseño, implementación y evolución de programas de <strong>Voice of Customer (VoC)</strong>,
+        con especial foco en <strong>Medallia, Medallia Experience Cloud, Medallia Digital y Qualtrics</strong>.
+      </p>
+
+      <p>
+        He trabajado en el diseño de estrategias de medición a lo largo del <strong>Customer Journey</strong>,
+        identificando puntos de contacto (touchpoints), momentos relevantes de la experiencia y oportunidades para
+        capturar feedback. Mi trabajo incluye la definición de qué medir, cuándo medir y cómo integrar esa información
+        en programas de experiencia que permitan comprender necesidades, identificar oportunidades de mejora y activar
+        acciones sobre el feedback de clientes.
+      </p>
+
+      <p>
+        Integro una mirada consultiva y tecnológica: traduzco necesidades de negocio en soluciones funcionales,
+        coordino especialistas técnicos y acompaño a clientes en la evolución de sus programas de experiencia.
+        También utilizo herramientas de <strong>Inteligencia Artificial e IA generativa</strong> para prototipado,
+        automatización, apoyo al desarrollo, revisión de código, troubleshooting, análisis y documentación técnica.
+      </p>
+    </section>
+
+    <section id="especialidades">
+      <h2 class="section-title">Especialidades</h2>
+      <div class="chips" aria-label="Áreas de especialización">
+        <span class="chip">Customer Experience (CX)</span>
+        <span class="chip">CX Technology</span>
+        <span class="chip">Medallia</span>
+        <span class="chip">Medallia Experience Cloud</span>
+        <span class="chip">Medallia Digital</span>
+        <span class="chip">Voice of Customer (VoC)</span>
+        <span class="chip">Experience Management (XM)</span>
+        <span class="chip">Qualtrics</span>
+        <span class="chip">Customer Journey</span>
+        <span class="chip">Journey Analytics</span>
+        <span class="chip">Touchpoints</span>
+        <span class="chip">NPS</span>
+        <span class="chip">CSAT</span>
+        <span class="chip">CES</span>
+        <span class="chip">Close the Loop</span>
+        <span class="chip">Customer Insights</span>
+        <span class="chip">Consumer Insights</span>
+        <span class="chip">Survey Design</span>
+        <span class="chip">Dashboards</span>
+        <span class="chip">Data Analytics</span>
+        <span class="chip">Market Research</span>
+        <span class="chip">Generative AI</span>
+        <span class="chip">Project Management</span>
+        <span class="chip">Technical Consulting</span>
+      </div>
+    </section>
+
+    <section id="experiencia">
+      <h2 class="section-title">Experiencia profesional</h2>
+
+      <article class="experience">
+        <h3>Ipsos Chile — Customer Experience & CX Technology</h3>
+        <div class="sub">Research Executive / Especialista en Customer Experience y Tecnología · 2022 – Actualidad</div>
+
+        <p>
+          Lidero el diseño, implementación y evolución de programas de Customer Experience y Voice of Customer
+          para organizaciones de banca, servicios financieros y retail, combinando consultoría, metodología,
+          gestión de proyectos y configuración tecnológica.
+        </p>
+
+        <ul>
+          <li>
+            Liderazgo de proyectos end-to-end en Chile y otros países, coordinando requerimientos de negocio,
+            metodología, configuración tecnológica, análisis e implementación.
+          </li>
+          <li>
+            Liderazgo funcional del HUB técnico especializado en Medallia, coordinando agendas, prioridades,
+            cargas de trabajo y requerimientos, además de apoyar definición de soluciones y troubleshooting.
+          </li>
+          <li>
+            Experiencia avanzada y certificación en Medallia, trabajando con Medallia Experience Cloud y
+            Medallia Digital en encuestas, dashboards, reglas de negocio, segmentaciones, gestión de datos,
+            Close the Loop, Customer Journeys y captura de feedback digital.
+          </li>
+          <li>
+            Asesoría a clientes en estrategias de medición del Customer Journey, definición de touchpoints
+            y diseño de programas de escucha para capturar feedback en momentos relevantes de la experiencia.
+          </li>
+          <li>
+            Trabajo con indicadores como NPS, CSAT y CES, complementados con Customer Insights, análisis
+            cuantitativo y cualitativo y visualización de resultados.
+          </li>
+          <li>
+            Uso activo de IA generativa en prototipado, automatización, revisión de código, troubleshooting,
+            análisis y documentación técnica para acelerar la implementación de soluciones CX.
+          </li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>IPG — Business Intelligence & Media Strategy</h3>
+        <div class="sub">Research Analyst / Analista de Business Intelligence y Estrategia de Medios · 2021 – 2022</div>
+
+        <p>
+          Desarrollé análisis de audiencias, consumidores y mercado para apoyar decisiones estratégicas de grandes
+          marcas, integrando información proveniente de medios digitales y offline.
+        </p>
+
+        <ul>
+          <li>
+            Elaboración de informes de Business Intelligence, segmentación y profiling de audiencias a partir de
+            múltiples fuentes de información.
+          </li>
+          <li>
+            Desarrollo de Consumer Insights y recomendaciones estratégicas para planificación de medios,
+            comportamiento del consumidor y caracterización de audiencias.
+          </li>
+          <li>
+            Análisis de benchmarking, competencia e inversión por canales digitales y tradicionales.
+          </li>
+          <li>
+            Presentación de resultados, workshops y Data Storytelling para transformar información compleja
+            en decisiones de negocio.
+          </li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Kantar Chile — Customer Experience, Customer Insights & Brand Research</h3>
+        <div class="sub">Research Executive · 2017 – 2021</div>
+
+        <p>
+          Me especialicé en Customer Experience, Customer Insights y Brand Research, liderando proyectos de
+          investigación y medición para organizaciones de los sectores financiero, bancario, retail y servicios.
+        </p>
+
+        <ul>
+          <li>
+            Liderazgo de proyectos de Customer Experience de principio a fin: diseño metodológico, implementación,
+            análisis y presentación de recomendaciones a clientes.
+          </li>
+          <li>
+            Trabajo con NPS, CES, análisis estadísticos, Customer Journeys, drivers de experiencia y oportunidades de mejora.
+          </li>
+          <li>
+            Liderazgo de proyectos de medición de experiencia digital y estudios orientados a comprender
+            necesidades, percepciones y comportamiento de clientes en distintos puntos de contacto.
+          </li>
+          <li>
+            Implementación y coordinación de proyectos Multi-Country, consolidando información regional,
+            KPIs y análisis comparativos para distintos mercados.
+          </li>
+          <li>
+            Desarrollo de estudios de Brand Equity, Brand Tracking y evaluación de campañas.
+          </li>
+          <li>
+            Optimización de procesos mediante sintaxis y automatización de tareas para reducir tiempos operativos.
+          </li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Psicología Clínica & Coaching para el Liderazgo</h3>
+        <div class="sub">Práctica profesional independiente</div>
+
+        <p>
+          Realizo procesos de evaluación, orientación y psicoterapia individual con adultos. Complemento la práctica
+          clínica con formación en Coaching para el Liderazgo, desarrollando procesos de acompañamiento en liderazgo,
+          comunicación interpersonal, gestión de la vida laboral, manejo del estrés, autocuidado y desarrollo profesional.
+        </p>
+      </article>
+    </section>
+
+    <section id="formacion">
+      <h2 class="section-title">Formación y certificaciones</h2>
+
+      <div class="grid">
+        <div class="card">
+          <strong>Medallia Product Certification</strong>
+          Certificación profesional en Medallia.
+        </div>
+
+        <div class="card">
+          <strong>Psicología</strong>
+          Universidad San Sebastián.
+        </div>
+
+        <div class="card">
+          <strong>Ingeniería en Marketing</strong>
+          Duoc UC.
+        </div>
+
+        <div class="card">
+          <strong>Formación en liderazgo y coaching</strong>
+          Formación complementaria orientada a liderazgo, acompañamiento y desarrollo profesional.
+        </div>
+      </div>
+    </section>
+
+    <section id="enfoque">
+      <h2 class="section-title">Enfoque profesional</h2>
+      <p>
+        Mi trayectoria conecta investigación, Consumer Insights, Business Intelligence, Customer Experience y
+        tecnología. Esta combinación me permite comprender la experiencia desde el comportamiento de las personas,
+        estructurar estrategias de medición y traducir necesidades de negocio en soluciones de CX Technology.
+      </p>
+
+      <p>
+        Áreas especialmente relevantes de mi experiencia incluyen
+        <strong>Medallia, Voice of Customer, Customer Journey, Journey Analytics, Medallia Digital,
+        Experience Management, Customer Insights, Qualtrics, IA generativa aplicada a desarrollos tecnológicos,
+        Project Management y Technical Consulting</strong>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Francisco Donoso López</strong><br>
+      Customer Experience · CX Technology · Medallia · Voice of Customer · Santiago, Chile
+    </div>
+  </footer>
+</body>
+</html>
